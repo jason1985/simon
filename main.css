@@ -16,6 +16,7 @@ button {
 }
 
 .container {
+	background-color: black;
 	position: relative;
 	border: solid black 5px;
 	width: 305px;
@@ -39,6 +40,7 @@ button {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	z-index: 10;
 }
 
 .box {
